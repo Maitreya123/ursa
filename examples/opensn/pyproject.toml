@@ -6,7 +6,7 @@ requires-python = ">=3.11"
 dependencies = [
     "ursa-ai",
     # Pinned to the commit this example was written and tested against.
-    "autoopensn[mcp] @ git+https://github.com/Maitreya123/AutoOpenSn.git@a683c287000055d8078459c978ab075bd62941e8",
+    "autoopensn[mcp] @ git+https://github.com/Maitreya123/AutoOpenSn.git@57f70fb9618468837b947d331ff38a7216410cef",
 ]
 
 [tool.uv]
