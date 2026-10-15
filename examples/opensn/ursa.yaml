@@ -1,0 +1,9 @@
+# Connect URSA to AutoOpenSn's MCP server. `uv run` puts the `autoopensn`
+# command from this example's environment on PATH.
+mcp_servers:
+  autoopensn:
+    transport: stdio
+    command: autoopensn
+    # 'auto' runs real OpenSn on the cluster when its SSH host answers, and
+    # AutoOpenSn's built-in 1D solver otherwise.
+    args: [mcp, --runner, auto, --run-root, runs, --cache-path, runs/cache.db]

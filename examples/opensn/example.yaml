@@ -1,0 +1,8 @@
+title: Run OpenSn parameter studies with AutoOpenSn
+summary: Let an execution agent run neutron transport parameter studies through AutoOpenSn's MCP server, which renders and runs only verified OpenSn templates.
+tags:
+  - mcp
+  - guided
+  - tui
+  - execution-agent
+  - simulation
